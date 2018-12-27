@@ -22,7 +22,7 @@ public interface AccountService {
 	public ArrayList<AccountBean> findAll();
 	public AccountBean findByAccountNum(String accountNum);
 	public int countAccount();
-	//public boolean existAccount(String accountNum);
+	public boolean existAccount(String accountNum);
 	public String findDate(); //날짜 반환
 	/**
 	 * UPDATE
